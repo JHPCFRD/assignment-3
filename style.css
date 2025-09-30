@@ -49,14 +49,7 @@ footer {
     font-size: 20px;
 }
 
-.aside-section {
-    background:rgb(226, 255, 252);
-    margin: 10px;
-    padding: 20px;
-    border-radius: 15px;
-    font-size: 20px;
-    text-align: center;
-}
+
 .dish-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +64,7 @@ footer {
     border-radius: 10px;
     padding: 15px;
     text-align: center;
-    box-shadow: 0 2px 10px rgb(83, 81, 0);
+    box-shadow: 0 2px 10px rgb(182, 179, 0);
 }
 
 .dish-card img {
@@ -83,9 +76,41 @@ footer {
     display: block;
     margin: 0 auto 10px;
 }
+.favorite-item {
+    background: white;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
 
+.favorite-btn {
+    background: gold;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.aside-section {
+    background:rgb(226, 255, 252);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+}
 /*IDs*/
 #intro {
     font-size: 20px;
     padding: 0 25px;
 }
+
+#favorites-section {
+    background: lightblue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
